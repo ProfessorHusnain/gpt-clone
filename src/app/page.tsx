@@ -33,22 +33,8 @@ export default function Home() {
           onChange={handleInputChange}
         />
 
-        <button className="flex items-center justify-center text-center group bg-blue-700">
-          <span
-            className="group-hover:translate-x-2
-         duration-500 transition-all"
-          >
-            <span
-              className="flex group-hover:translate-y-6   text-center
-           group-hover:opacity-0 transition-all duration-1000"
-            >
-              Submit
-            </span>
-          </span>
-          <span className="flex -translate-y-[100%] -translate-x-[100%]
-          duration-500 transition-all opacity-0 group-hover:opacity-100 group-hover:translate-y-0">
-          Submit
-          </span>
+        <button className="flex items-center justify-center text-center group">
+          <BiSend className="text-2xl group-hover:translate-x-2 shadow-lg transition-all duration-700" />
         </button>
       </form>
     </div>
